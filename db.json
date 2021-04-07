@@ -1,0 +1,151 @@
+{
+    "bg": "background-snk.png",
+    "title": "Qual titã você seria em Attack on Titan?",
+    "description": "Um quiz rápido!",
+    "questions": [
+      {
+        "image": "nineth.png",
+        "title": "Se você estivesse numa caverna cercado por goblins. Quais armas seriam mais úteis?",
+        "description": "Pergunta fácil em!",
+        "answer": 2,
+        "correct": "correta: Espada curta e um escudo",
+        "alternatives": [
+          "Lança e escudo",
+          "Machado e azagaia",
+          "Espada curta e um escudo",
+          "Só na mão mesmo"
+        ]
+      },
+      {
+        "image": "sixth.jpg",
+        "title": "Você está em um campo aberto, sua constituição é baixa. Qual a melhor maneira de evitar danos críticos?",
+        "description": "Vai na fé.",
+        "answer": 0,
+        "correct": "correta: Usar uma armadura decente",
+        "alternatives": [
+          "Usar uma armadura decente",
+          "Depender da sua destreza",
+          "Ficar atrás dos seus colegas dando apenas suporte",
+          "Pegar distância e somente usar armas com longo alcance"
+        ]
+      },
+      {
+        "image": "potato.gif",
+        "title": "Qual dessas classes seria mais útil em furtos de objetos amaldiçoados?",
+        "description": "Ótima dica!",
+        "answer": 3,
+        "correct": "correta: Bruxo",
+        "alternatives": [
+          "Mago",
+          "Druida",
+          "Ladino",
+          "Bruxo"
+        ]
+      },
+      {
+        "image": "forth.jpg",
+        "title": "Sua missão é o resgate de uma princesa. Quais desses você escolheria para o acompanhar na sua jornada?",
+        "description": "Hum",
+        "answer": 2,
+        "correct": "correta: Elfo paladino e Ladino",
+        "alternatives": [
+          "Clérigo e Bruxo",
+          "Bárbaro e um Anão",
+          "Elfo paladino e Ladino",
+          "Paladino e Patrulheiro"
+        ]
+      },
+
+      {
+        "image": "sasagayo.gif",
+        "title": "Qual destas está errada?",
+        "description": "Soka...",
+        "answer": 3,
+        "correct": "correta: Confiar seus objetos pessoais a um ladino",
+        "alternatives": [
+          "Seguir os conselhos de um viajantes",
+          "Aceitar os presentes de um dráconito",
+          "Seguir as dicas do mestre do jogo",
+          "Confiar seus objetos pessoais a um ladino"
+        ]
+      },
+
+      {
+        "image": "eighth.jpg",
+        "title": "Você está numa batalha. Qual desses deve-se evitar em combate a curta distância?",
+        "description": "Esse você realmente não deve!",
+        "answer": 0,
+        "correct": "correta: Hobgoblins",
+        "alternatives": [
+          "Hobgoblins",
+          "Esqueletos",
+          "Goblins",
+          "Necromantes"      
+        ]
+      },
+
+      {
+        "image": "third.png",
+        "title": "Você e entra na armadilha de um Lich, seus colegas morreram e você tem poucos recursos. O que você deve fazer?",
+        "description": "Tens o que é necessário?",
+        "answer": 1,
+        "correct": "correta: Destruir a filactéria do Lich através de um ritual",
+        "alternatives": [
+          "Incapacitar o Lich através de uma magia",
+          "Destruir a filactéria do Lich através de um ritual",
+          "Esconder-se em um local seguro do domínio do Lich",
+          "Tentar a sorte e sair do local quando for o momento"
+        ]
+      },
+
+      {
+        "image": "liberdade.gif",
+        "title": "Enigma da esfinge: O que pela manhã tem quatro pés, a tarde tem dois, e à noite tem três? Caso erre você morre!",
+        "description": "Pense bem",
+        "answer": 1,
+        "correct": "correta: O Homem",
+        "alternatives": [
+          "O Cavalo",
+          "O Homem",
+          "A Lâmia",
+          "A Vida"
+         
+        ]
+      },
+
+      {
+        "image": "sasha.gif",
+        "title": "Dois dragões adultos estão vindo roubar seu imenso tesouro. Como deve se preparar?",
+        "description": "Vai precisar de astúcia",
+        "answer": 1,
+        "correct": "correta: Usar uma muralha com apoio de imensas balistas de alta precisão",
+        "alternatives": [
+          "Perdemo, vamo embora e deixar esse tesouro de lado",
+          "Usar uma muralha com apoio de imensas balistas de alta precisão",
+          "Usar equipamento contra fogo de dragão",
+          "Arremessar redes arcanas contra os dragões"
+         
+        ]
+      }
+      
+    ],
+
+    "resultImage": "winner.gif",
+    "resultImage2st": "hurt2st.gif",
+    "resultImage3st": "death.gif",
+    
+    "theme": {
+      "colors": {
+        "primary": "#222222",
+        "mainBg": "#202020",
+        "contrastText": "#fefef3",
+        "wrong": "#FF4522",
+        "success": "#4CAF50",
+        "exploration": "#04463a"
+      },
+      "borderRadius": "5px",
+      "quizlogo": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/298/4605243298_545beea1-9f67-44b1-bd55-710f841a163d.png?cb=1612835865",
+      "quizlogo2": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/443/4813342443_5e00954e-6cd4-486e-b766-09d23b47f28e.png?cb=1615221936"
+    }
+  }
+  
