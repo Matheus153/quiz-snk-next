@@ -5,125 +5,125 @@
     "questions": [
       {
         "image": "nineth.png",
-        "title": "Se você estivesse numa caverna cercado por goblins. Quais armas seriam mais úteis?",
-        "description": "Pergunta fácil em!",
+        "title": "O que você faria se fosse um eldiano vivendo em Marley?",
+        "description": "",
         "answer": 2,
-        "correct": "correta: Espada curta e um escudo",
+        "correct": "correta:",
         "alternatives": [
-          "Lança e escudo",
-          "Machado e azagaia",
-          "Espada curta e um escudo",
-          "Só na mão mesmo"
+          "Ficaria na minha",
+          "Tentaria sair de lá de algum jeito",
+          "Me destacaria para ser reconhecido como uma pessoa",
+          "Ficaria com ódio de morar lá!"
         ]
       },
       {
         "image": "sixth.jpg",
-        "title": "Você está em um campo aberto, sua constituição é baixa. Qual a melhor maneira de evitar danos críticos?",
-        "description": "Vai na fé.",
-        "answer": 0,
-        "correct": "correta: Usar uma armadura decente",
+        "title": "Se estivesse no mundo de Shingenki para qual lugar você fugiria dos Titãs puros?",
+        "description": "",
+        "answer": 3,
+        "correct": "correta: ",
         "alternatives": [
-          "Usar uma armadura decente",
-          "Depender da sua destreza",
-          "Ficar atrás dos seus colegas dando apenas suporte",
-          "Pegar distância e somente usar armas com longo alcance"
+          "Em algum lugar das florestas",
+          "No subsolo",
+          "Em um vilarejo pacato",
+          "Nas muralhas"
         ]
       },
       {
         "image": "potato.gif",
-        "title": "Qual dessas classes seria mais útil em furtos de objetos amaldiçoados?",
-        "description": "Ótima dica!",
-        "answer": 3,
-        "correct": "correta: Bruxo",
+        "title": "Num mundo escasso de alimentos. Qual alimento seria sua prioridade?",
+        "description": "",
+        "answer": 0,
+        "correct": "correta: ",
         "alternatives": [
-          "Mago",
-          "Druida",
-          "Ladino",
-          "Bruxo"
+          "Batata",
+          "Carne",
+          "Conserva",
+          "Arroz"
         ]
       },
       {
         "image": "forth.jpg",
-        "title": "Sua missão é o resgate de uma princesa. Quais desses você escolheria para o acompanhar na sua jornada?",
-        "description": "Hum",
-        "answer": 2,
-        "correct": "correta: Elfo paladino e Ladino",
+        "title": "Se pudesse escolher um lado da guerra qual seria?",
+        "description": "",
+        "answer": 1,
+        "correct": "correta:",
         "alternatives": [
-          "Clérigo e Bruxo",
-          "Bárbaro e um Anão",
-          "Elfo paladino e Ladino",
-          "Paladino e Patrulheiro"
+          "Ficaria com Marley",
+          "Qualquer um em que eu não vá confrontar o Levi",
+          "Homão Erwin",
+          "Com o menino Tatakae"
         ]
       },
 
       {
         "image": "sasagayo.gif",
-        "title": "Qual destas está errada?",
-        "description": "Soka...",
+        "title": "Se estivesse na tropa do Erwin e ele pedisse para você morrer pela causa. Qual seria sua atitude?",
+        "description": "",
         "answer": 3,
-        "correct": "correta: Confiar seus objetos pessoais a um ladino",
+        "correct": "correta: ",
         "alternatives": [
-          "Seguir os conselhos de um viajantes",
-          "Aceitar os presentes de um dráconito",
-          "Seguir as dicas do mestre do jogo",
-          "Confiar seus objetos pessoais a um ladino"
+          "Cê loko, me matar!? Tô fora",
+          "Aceitar com relutância",
+          "Ir para o lado do inimigo",
+          "Sinzou wo Sasagayo!"
         ]
       },
 
       {
         "image": "eighth.jpg",
-        "title": "Você está numa batalha. Qual desses deve-se evitar em combate a curta distância?",
-        "description": "Esse você realmente não deve!",
-        "answer": 0,
-        "correct": "correta: Hobgoblins",
+        "title": "Qual tropa você escolheria para entrar?",
+        "description": "",
+        "answer": 1,
+        "correct": "correta: ",
         "alternatives": [
-          "Hobgoblins",
-          "Esqueletos",
-          "Goblins",
-          "Necromantes"      
+          "Polícia Militar",
+          "Tropa de Exploração",
+          "Guarnição",
+          "Nenhuma, viveria como camponês"      
         ]
       },
 
       {
         "image": "third.png",
-        "title": "Você e entra na armadilha de um Lich, seus colegas morreram e você tem poucos recursos. O que você deve fazer?",
+        "title": "Você é um infiltrado em Paradis, estão perto de lhe pegar. O que você faz?",
         "description": "Tens o que é necessário?",
-        "answer": 1,
-        "correct": "correta: Destruir a filactéria do Lich através de um ritual",
+        "answer": 2,
+        "correct": "correta: ",
         "alternatives": [
-          "Incapacitar o Lich através de uma magia",
-          "Destruir a filactéria do Lich através de um ritual",
-          "Esconder-se em um local seguro do domínio do Lich",
-          "Tentar a sorte e sair do local quando for o momento"
+          "Matar todo mundo e fugir",
+          "Me entregar e guardar todos os segredos comigo",
+          "Me prender dentro de um cristal quase impossível de ser quebrado",
+          "Virar a casaca e revelar tudo"
         ]
       },
 
       {
         "image": "liberdade.gif",
-        "title": "Enigma da esfinge: O que pela manhã tem quatro pés, a tarde tem dois, e à noite tem três? Caso erre você morre!",
-        "description": "Pense bem",
+        "title": "Qual personalidade combina mais com você?",
+        "description": "",
         "answer": 1,
-        "correct": "correta: O Homem",
+        "correct": "correta: ",
         "alternatives": [
-          "O Cavalo",
-          "O Homem",
-          "A Lâmia",
-          "A Vida"
+          "Prestimoso",
+          "Curioso",
+          "Ah!! preguiça",
+          "Arguto"
          
         ]
       },
 
       {
         "image": "sasha.gif",
-        "title": "Dois dragões adultos estão vindo roubar seu imenso tesouro. Como deve se preparar?",
-        "description": "Vai precisar de astúcia",
+        "title": "Se seus amigos estivessem entre a vida e morte. Você arriscaria virar titã mesmo que você morrar depois?",
+        "description": "",
         "answer": 1,
-        "correct": "correta: Usar uma muralha com apoio de imensas balistas de alta precisão",
+        "correct": "correta: ",
         "alternatives": [
-          "Perdemo, vamo embora e deixar esse tesouro de lado",
-          "Usar uma muralha com apoio de imensas balistas de alta precisão",
-          "Usar equipamento contra fogo de dragão",
-          "Arremessar redes arcanas contra os dragões"
+          "Nada, deixa morrer",
+          "Sim",
+          "Ehh... mais ou menos",
+          "Se fosse o Armando, talvez"
          
         ]
       }
@@ -143,7 +143,7 @@
         "success": "#4CAF50",
         "exploration": "#04463a"
       },
-      "borderRadius": "5px",
+      "borderRadius": "2px",
       "quizlogo": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/298/4605243298_545beea1-9f67-44b1-bd55-710f841a163d.png?cb=1612835865",
       "quizlogo2": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/443/4813342443_5e00954e-6cd4-486e-b766-09d23b47f28e.png?cb=1615221936"
     }

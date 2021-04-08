@@ -19,7 +19,7 @@ const Button = styled.button`
 
   &:hover,
   &:focus {
-    opacity: .6;
+    opacity: .8;
   }
 
   &:disabled {

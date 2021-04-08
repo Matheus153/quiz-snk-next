@@ -8,12 +8,10 @@ import Widget from '../../components/Widget';
 import QuizBackground from '../../components/quizBackground';
 import QuizContainer from '../../components/QuizContainer';
 import AlternativesForm from '../../components/AlternativesForm';
-import AlternativeMessage from '../../components/AlternativeMessage';
 import Button from '../../components/Button';
 import BackLinkArrow from '../../components/BackLinkArrow';
 
-import correctAnim from './animations/correctAnim';
-import incorrectAnim from './animations/incorrectAnim';
+
 import loadingAnimation from './animations/kakashi-load.json';
 
 function ResultWidget({ results }) {
@@ -33,6 +31,36 @@ function ResultWidget({ results }) {
       <Widget.Header>
         <h4>Resultado:</h4>
       </Widget.Header>
+          {score === 9 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/blindado.jpg'}
+          /> }
+
+          {score === 9 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/carroceiro.jpg'}
+          /> }
+
+          {score === 8 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/Mandíbula.jpeg'}
+          /> }
+
           {score === 7 && <img
           alt="final"
           style={{
@@ -40,28 +68,71 @@ function ResultWidget({ results }) {
             height: '180px',
             objectFit: 'cover',
           }}
-          src={'blindado.jpg'}
+          src={'/image/blindado.jpg'}
           /> }
 
-          {score > 3 && score < 6 && <img
+          {score === 6 && <img
           alt="final"
           style={{
             width: '100%',
             height: '180px',
             objectFit: 'cover',
           }}
-          src={'joinha.gif'}
+          src={'/image/Ataque.png'}
           /> }
 
-          {score <=3 && <img
+          {score === 5 && <img
           alt="final"
           style={{
             width: '100%',
             height: '180px',
             objectFit: 'cover',
           }}
-          src={'sad-BTS.gif'}
+          src={'/image/martelo.jpg'}
           /> }
+
+          {score === 4 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/colossal.png'}
+          /> }
+
+          {score === 3 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/femea.jpg'}
+          /> }
+
+          {score === 2 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/fundador.jpeg'}
+          /> }
+
+          {score <= 1 && <img
+          alt="final"
+          style={{
+            width: '100%',
+            height: '180px',
+            objectFit: 'cover',
+          }}
+          src={'/image/bestial.jpg'}
+          /> }
+
+
+          
       <Widget.Content> 
          
         <h5 style= {{
@@ -69,15 +140,15 @@ function ResultWidget({ results }) {
           lineHeight: '1.1em',
           textAlign: 'center'
         }}>
-          { score === 9 && `Titã Bestial`}
-          { score === 8 && `Titã Carroceiro`}
+          { score === 9 && `Titã Carroceiro`}
+          { score === 8 && `Titã Mandíbula`}
           { score === 7 && `Titã Blindado`}
           { score === 6 && `Titã de Ataque`}
           { score === 5 && `Titã Martelo de Guerra`}
           { score === 4 && `Titã Colossal`}
           { score === 3 && `Titã Fêmea`}
           { score === 2 && `Titã Fundador`}
-          { score === 1 && `Titã Mandíbula`}
+          { score <= 1 && `Titã Bestial`}
           
           
         </h5>
@@ -186,7 +257,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+            }, 1 * 1000);
           }}
         >
           {question.alternatives.map(
@@ -230,7 +301,6 @@ function QuestionWidget({
           {/* <pre>
             {JSON.stringify(question, null, 4)}
           </pre> */}
-          {!isQuestionSubmited &&
             <Button 
               type="submit" 
               disabled={!hasAlternativeSelected}
@@ -243,11 +313,10 @@ function QuestionWidget({
             >
               Confirmar
             </Button>
-          }
+       
 
-          {isQuestionSubmited && isCorrect && <AlternativeMessage><Lottie config={{ animationData: correctAnim, loop: false, autoplay: true }} height={100} width={100} margin-top="10px"/></AlternativeMessage>}
-          {isQuestionSubmited && !isCorrect && <AlternativeMessage><Lottie config={{ animationData: incorrectAnim, loop: false, autoplay: true }} height={100} width={100} margin-top="10px"/>
-          <p as={motion.p}  transition={{ delay: 0.4, duration: 1, ease: "easeOut" }}>{question.correct}</p></AlternativeMessage>}
+          {isQuestionSubmited && isCorrect }
+          {isQuestionSubmited && !isCorrect }
         </AlternativesForm>
       </Widget.Content>
     </Widget>
