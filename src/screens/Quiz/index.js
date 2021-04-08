@@ -244,7 +244,7 @@ function QuestionWidget({
         <h3>
           {question.title}
         </h3>
-        <p>
+        <p  style= {{ marginBottom: '40px'}}>
           {question.description}
         </p>
 
