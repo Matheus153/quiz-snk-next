@@ -159,7 +159,7 @@ function ResultWidget({ results }) {
           { score === 2 && <p>Um dos mais versáteis titãs. O Titã Mandíbula é extremamente ágil e possui a mordidade mais potente de todos os titãs.</p>}
 
           { score <= 1 && `Titã Bestial`}
-          { score <= 1 && <p>Consegue controlar titãs puros criados a parte do líquido de sua medula. Possui extrema precisão em seus lançamentos, sendo extremamente difícil de enfrentá-lo no combate a longa distância. Cuidado Mamaco!</p>}
+          { score <= 1 && <p>Tem a skill de controle de titãs puros criados pelo líquido da sua medula. Possui extrema precisão em seus lançamentos, sendo extremamente difícil de enfrentá-lo no combate a longa distância. Cuidado com o Mamaco!</p>}
           
           
         </h5>
