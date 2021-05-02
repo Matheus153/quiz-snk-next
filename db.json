@@ -7,7 +7,7 @@
         "image": "nineth.png",
         "title": "O que você faria se fosse um eldiano vivendo em Marley?",
         "description": "",
-        "answer": 2,
+        "answer": 3,
         "correct": "correta:",
         "alternatives": [
           "Ficaria na minha",
@@ -18,7 +18,7 @@
       },
       {
         "image": "sixth.jpg",
-        "title": "Se estivesse no mundo de Shingenki para qual lugar você fugiria dos Titãs puros?",
+        "title": "Se estivesse no mundo de Shingenki para qual lugar você fugiria dos Titãs?",
         "description": "",
         "answer": 3,
         "correct": "correta: ",
@@ -93,8 +93,8 @@
         "alternatives": [
           "Matar todo mundo e fugir",
           "Me entregar e guardar todos os segredos comigo",
-          "Me prender dentro de um cristal quase impossível de ser quebrado",
-          "Virar a casaca e revelar tudo"
+          "Me prender em algum lugar onde ninguém possa me encontrar",
+          "Revelar tudo"
         ]
       },
 
@@ -107,7 +107,7 @@
         "alternatives": [
           "Prestimoso",
           "Curioso",
-          "Ah!! preguiça",
+          "Preguiçoso",
           "Arguto"
          
         ]

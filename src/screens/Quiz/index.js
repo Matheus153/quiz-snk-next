@@ -31,6 +31,7 @@ function ResultWidget({ results }) {
       <Widget.Header>
         <h4>Resultado:</h4>
       </Widget.Header>
+
           {score === 9 && <img
           alt="final"
           style={{
@@ -38,10 +39,10 @@ function ResultWidget({ results }) {
             height: '180px',
             objectFit: 'cover',
           }}
-          src={'/image/blindado.jpg'}
-          /> }
 
-          {score === 9 && <img
+          src={'/image/fundador.jpeg'}
+          /> }
+          {score === 8 && <img
           alt="final"
           style={{
             width: '100%',
@@ -51,15 +52,7 @@ function ResultWidget({ results }) {
           src={'/image/carroceiro.jpg'}
           /> }
 
-          {score === 8 && <img
-          alt="final"
-          style={{
-            width: '100%',
-            height: '180px',
-            objectFit: 'cover',
-          }}
-          src={'/image/Mandíbula.jpeg'}
-          /> }
+          
 
           {score === 7 && <img
           alt="final"
@@ -118,7 +111,7 @@ function ResultWidget({ results }) {
             height: '180px',
             objectFit: 'cover',
           }}
-          src={'/image/fundador.jpeg'}
+          src={'/image/Mandíbula.jpeg'}
           /> }
 
           {score <= 1 && <img
@@ -140,17 +133,18 @@ function ResultWidget({ results }) {
           lineHeight: '1.1em',
           textAlign: 'center'
         }}>
-          { score === 9 && `Titã Carroceiro`}
-          { score === 9 && <p>Um titã que tem a capacidade de transportar grandes cargas. Tem a skill de usar uma armadura com artilharia pesada para grandes combates!</p>}
+          
+          { score === 9 && `Titã Fundador`}
+          { score === 9 && <p>O Titã fundador talvez seja um dos mais apelativos. Consegue controlar a vontade de outros Titãs devido ao poder do fundador, indicando caminhos e até mesmo mudando a composição biológica dos habitantes de Eldia. Ah uma preguiçin!</p>}
 
-          { score === 8 && `Titã Mandíbula`}
-          { score === 8 && <p>Um dos mais versáteis titãs. O Titã Mandíbula é extremamente ágil e possui a mordidade mais potente de todos os titãs.</p>}
+          { score === 8 && `Titã Carroceiro`}
+          { score === 8 && <p>Um titã que tem a capacidade de transportar grandes cargas. Tem a skill de usar uma armadura com artilharia pesada para grandes combates!</p>}
 
           { score === 7 && `Titã Blindado`}
           { score === 7 && <p>Possui uma camada de extrema dureza em seu corpo, resistindo a grandes impactos e ataques de outros titãs. É um tanque de Guerra! Blindão!!</p>}
 
           { score === 6 && `Titã de Ataque`}
-          { score === 6 && <p>Ele possui um grande poder onfesivo. Além de ter o poder de endurecimento também possui capacidade ter acesso as memórias de seus futuros portadores.Tatakae!</p>}
+          { score === 6 && <p>Ele possui um grande poder ofensivo. Além de ter o poder de endurecimento também possui capacidade ter acesso as memórias de seus futuros portadores.Tatakae!</p>}
 
           { score === 5 && `Titã Martelo de Guerra`}
           { score === 5 && <p>Um dos mais completos titãs! O Martelo de Guerra pode criar qualquer arma com seu poder de endurecimento. Perfeito para combater qualquer tipo de ameaça! Também chamado de Titã Everson Zoio</p>}
@@ -161,11 +155,11 @@ function ResultWidget({ results }) {
           { score === 3 && `Titã Fêmea`}
           { score === 3 && <p>Com extrema agilidade e habilidade de copiar as capacidades de outros titãs. A Titã Fêmea não só é um grande perigo como também consegue atrair outros titãs puros pelo seu chamado</p>}
 
-          { score === 2 && `Titã Fundador`}
-          { score === 2 && <p>O Titã fundador talvez seja um dos mais apelativos. Consegue controlar a vontade de outros Titãs devido ao poder do fundador, indicando caminhos e até mesmo mudando a composição biológica dos habitantes de Eldia. Ah uma preguiçin!</p>}
+          { score === 2 && `Titã Mandíbula`}
+          { score === 2 && <p>Um dos mais versáteis titãs. O Titã Mandíbula é extremamente ágil e possui a mordidade mais potente de todos os titãs.</p>}
 
           { score <= 1 && `Titã Bestial`}
-          { score <= 1 && <p>Consegue controlar a vontades dos titãs puros criados a parte do líquido de sua medula. Possui extrema precisão em seus lançamentos, sendo um dos mais difíceis de combater a longa distância.</p>}
+          { score <= 1 && <p>Consegue controlar titãs puros criados a parte do líquido de sua medula. Possui extrema precisão em seus lançamentos, sendo extremamente difícil de enfrentá-lo no combate a longa distância. Cuidado Mamaco!</p>}
           
           
         </h5>
