@@ -144,7 +144,7 @@ function ResultWidget({ results }) {
           { score === 7 && <p>Possui uma camada de extrema dureza em seu corpo, resistindo a grandes impactos e ataques de outros titãs. É um tanque de Guerra! Blindão!!</p>}
 
           { score === 6 && `Titã de Ataque`}
-          { score === 6 && <p>Ele possui um grande poder ofensivo. Além de ter o poder de endurecimento também possui capacidade ter acesso as memórias de seus futuros portadores.Tatakae!</p>}
+          { score === 6 && <p>Ele possui um grande poder ofensivo. Além de ter o poder de endurecimento também possui capacidade de ter acesso as memórias de seus futuros portadores.Tatakae!</p>}
 
           { score === 5 && `Titã Martelo de Guerra`}
           { score === 5 && <p>Um dos mais completos titãs! O Martelo de Guerra pode criar qualquer arma com seu poder de endurecimento. Perfeito para combater qualquer tipo de ameaça! Também chamado de Titã Everson Zoio</p>}
